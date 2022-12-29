@@ -17,7 +17,7 @@ function Nav() {
       <nav className="w-full md:w-10/12 lg:w-8/12 mx-auto">
         <div className="flex items-center justify-between mx-auto p-5 text-black">
           <div>
-            <h2 className="text-lg font-bold text-amber-400 uppercase md:text-2xl">pportfolio</h2>
+            <h2 className="text-lg font-bold text-amber-400 uppercase md:text-2xl">Phung <span className='text-zinc-900'>Pham</span></h2>
           </div>
           <div>
             <ul className="hidden md:grid md:grid-cols-4 md:gap-4">

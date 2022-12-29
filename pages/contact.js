@@ -1,3 +1,4 @@
+import Contact from "../src/components/contact";
 import Header from "../src/components/header";
 import Layout from "../src/components/layout";
 import Banner from "../src/images/codingbg.jpeg"
@@ -10,6 +11,7 @@ function ContactUs() {
         content=""
         pageBanner={Banner}
       />
+      <Contact />
     </Layout>
   )
 }

@@ -22,13 +22,13 @@ export default function Technologies() {
   ]
   return (
     <div className="bg-gray-50  py-32">
-    <div className="w-10/12 md:w-8/12 mx-auto">
+    <div className="w-10/12 md:w-10/12 lg:w-8/12 mx-auto">
         <div className="text-center mb-12">
-            <p className="text-4xl font-bold text-gray-600 dark:text-gray-100 mb-3">Technologies I use</p>
+            <p className="text-4xl font-bold text-gray-600 mb-3">Technologies I use</p>
             {/* <p className="text-gray-600 dark:text-gray-100">Discover Places by Categories</p> */}
         </div>
         <div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-gap-2 place-items-center gap-10">
               {tech.map((item,index) => (
                 <a href="#" className="p-4 bg-white dark:border  w-60 shadow hover:shadow-lg transition-all space-y-5 rounded-lg">
                     <Image src={item.img} alt="" className="w-32 h-32 mx-auto rounded-full"></Image>

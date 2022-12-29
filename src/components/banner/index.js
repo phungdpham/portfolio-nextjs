@@ -19,7 +19,7 @@ function Banner() {
           </div>
           <div className="my-12 text-white">
             <h2 className="text-3xl font-semibol text-white sm:text-3xl mb-8">
-              Hello, I'm <span className="text-amber-400">Phung Pham</span>
+              Hello, I'm <span className="text-amber-400">Phung.</span>
             </h2>
             <h2 className="text-3xl font-semibol text-white sm:text-3xl capitalize">
               Welcome to my porfolio page
