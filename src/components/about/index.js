@@ -11,7 +11,7 @@ export default function About() {
             <span className="text-amber-400">
               Digital Marketing Web Developer
             </span>{' '}
-            who have skill sets and experience in Digital Marketing and Web
+            who has skill sets and experience in Digital Marketing and Web
             Development for your organization? Let see below how my skill sets
             and experience fit to your hiring requirement.
           </p>
