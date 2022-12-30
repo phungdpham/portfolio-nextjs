@@ -60,7 +60,7 @@ function Nav() {
           </div>
           {/* Hamburger Button */}
           <button
-            className={`z-50 lg:hidden focus:outline-none
+            className={`z-50 md:hidden focus:outline-none
             }`}
             onClick={toggleSidebar}
           >
