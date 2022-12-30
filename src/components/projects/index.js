@@ -29,7 +29,7 @@ export default function Projects() {
                       href={item.demo}
                       className="hover:font-bold hover:text-amber-500"
                     >
-                      <p className="text-lg font-bold text-gray-600 hover:text-white">
+                      <p className="text-lg font-bold text-gray-600 hover:text-gray-800">
                         {item.name}
                       </p>
                     </a>
