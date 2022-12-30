@@ -7,7 +7,7 @@ function Header({ title, content, pageBanner }) {
       <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 bg-zinc-900/30"></div>
   
       <div className="relative mx-auto py-24 px-6 w-full md:w-3/4 ">
-        <h2 className="px-3 mb-6 text-white text-3xl  font-semibold text-center md:text-4xl ">
+        <h2 className="px-3 mb-6 text-white text-3xl uppercase font-semibold text-center md:text-4xl ">
           {title}
         </h2>
         <p className="mb-6 text-lg tracking-widest text-center text-white ">

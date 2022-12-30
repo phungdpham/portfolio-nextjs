@@ -33,7 +33,7 @@ export default function Technologies() {
                 <a href="#" className="p-4 bg-white dark:border  w-60 shadow hover:shadow-lg transition-all space-y-5 rounded-lg">
                     <Image src={item.img} alt="" className="w-32 h-32 mx-auto rounded-full"></Image>
                     <div className="space-y-2 text-center">
-                        <p className="text-gray-700 dark:text-gray-100 text-lg font-semibold mb-3">{item.name}</p>
+                        <p className="text-gray-700 text-lg font-semibold mb-3">{item.name}</p>
                     </div>
                 </a>
               ))}
@@ -42,7 +42,7 @@ export default function Technologies() {
                
             </div>
             <div className="mt-12 text-center">
-                <button className="rounded-md py-2.5 px-4 bg-white  border border-gray-100 text-lg shadow hover:shadow-lg text-gray-600 dark:text-gray-100">
+                <button className="rounded-md py-2.5 px-4 bg-amber-400 capitalize border border-gray-100 text-lg shadow hover:shadow-lg text-white hover:bg-amber-500 hover:text-white">
                     <a href="/projects">View Projects</a>
                 </button>
             </div>

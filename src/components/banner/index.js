@@ -24,8 +24,8 @@ function Banner() {
             <h2 className="text-3xl font-semibol text-white sm:text-3xl capitalize">
               Welcome to my porfolio page
             </h2>
-            <button className="mt-8 rounded p-4 bg-gradient-to-r from-amber-500 to-amber-400 text-white hover:bg-amber-700">
-              <a className="" href="/about">
+            <button className="mt-8 capitalize  rounded p-4 bg-gradient-to-r from-amber-500 to-amber-400 text-white hover:bg-amber-600">
+              <a className="" href="/projects">
                 My Projects
               </a>
             </button>
